@@ -1,0 +1,134 @@
+@import url(https://fonts.google.com/);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;600&display=swap');
+
+/* General settings */
+
+* {
+    font-family: 'Outfit';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    text-align: left;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* Card */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section {
+    background-color: hsl(216, 50%, 16%);
+    width: 310px;
+    height: 520px;
+    border-radius: 15px;
+}
+
+/* Image */
+
+img {
+    width: 270px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+/* Text */
+
+.text {
+    margin-left: 20px;
+    color: white;
+}
+
+.description {
+    font-weight: 100;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+/* Informations */
+
+.infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ethereum {
+    width: 10px;
+}
+
+.percent {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: -8px;
+}
+
+.eth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.clock {
+    width: 20px;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin-left: -14px;
+}
+
+.days {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    margin-left: 65px;
+}
+
+hr {
+    width: 270px;
+    margin-left: 20px;
+    color: white;
+    background-color: hsl(215, 32%, 27%);
+    height: 0.5px; 
+    border: none;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.avatar {
+    width: 25px;
+    border: 1.5px solid white;
+}
+
+.name {
+    font-weight: 100;
+    color: white;
+    font-size: 15px;
+}
+
+span {
+    font-weight: 400
+}
